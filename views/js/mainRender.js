@@ -81,7 +81,9 @@ onload = () => {
         'https://discord.com/api/v9/gateway',          // This may be required to get past login screen if not cached locally
         'https://discord.com/api/v9/interactions',     // Slash Commands
         'https://discord.com/api/v9/applications/',
-        'https://discord.com/api/v9/users/'
+        'https://discord.com/api/v9/users/',
+        'https://tenor.com/', // Tenor GIFs
+        'https://giphy.com/' // Giphy GIFs
     ]
 
     const _whiteList = convertObjToString(whiteList)
