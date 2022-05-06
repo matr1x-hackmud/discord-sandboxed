@@ -34,8 +34,8 @@ module.exports = {
                 console.log(`\tCreated ${configFile}`)
                 configObj = {
                 'pttDevice': 'mouse',
-                'key': '4', 
-                'delay': '1000', 
+                'key': '5', 
+                'delay': '350', 
                 }
                 return resolve(_saveToConfig(configObj))
             }
